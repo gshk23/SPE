@@ -23,5 +23,7 @@ Working with Git Branches
 (1) git branch branchname
 (2) git checkout branchname (if we want to move from one branch to another)
 (3) git merge branchname (git merge branchname to merge branch1 into the master)
+(4) git diff master..branch1
+(5) git branch -d branchname
 
 
