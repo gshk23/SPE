@@ -1,0 +1,29 @@
+git (--version)
+git config --global user.name ""
+git config --global user.email ""
+git config --list
+git init (Intialize empty git repo)
+git commit -m ""
+git branch (gives the branch name)
+
+Steps:
+(1) git status
+(2) git add file_name
+(3) git commit (permanent tracking)
+(4) git log (shows us the entire commit history)
+(5) git checkout commit_unique_id (if we want to go back to a previous version or commit we can use that commit id)
+(6) git remote add origin <URL> (This command gathers all the committed files from your local repository and uploads them to our repository we created on github.)
+(7) git push -u origin master
+
+“Git push” tells git that we want to upload our files and development history from the repository on our local
+computer to a repository hosted on github
+“-u origin master” means that we want to upload the “master” version of our commits to a repository on github called “origin”
+
+Working with Git Branches
+(1) git branch branchname
+(2) git checkout branchname (if we want to move from one branch to another)
+(3) git merge branchname (git merge branchname to merge branch1 into the master)
+(4) git diff master..branch1
+(5) git branch -d branchname
+
+
