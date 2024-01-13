@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 //this is  masters
+=======
+//this is bty team1
+>>>>>>> team1
 import java.util.*;
 class helloworld{
    public static void main(String [] args){
      System.out.print("hdhhdhd");
-     System.out.print("program by master");
+<<<<<<< HEAD
+=======
+     System.out.print("program by team1");
+>>>>>>> team1
    }
 }
