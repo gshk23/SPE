@@ -1,4 +1,4 @@
-//this is for team2
+//this is by team2
 import java.util.*;
 class helloworld{
    public static void main(String [] args){
