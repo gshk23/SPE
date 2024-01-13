@@ -25,5 +25,5 @@ Working with Git Branches
 (3) git merge branchname (git merge branchname to merge branch1 into the master)
 (4) git diff master..branch1
 (5) git branch -d branchname
-
+(6) git clone <URL>
 
