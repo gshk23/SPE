@@ -5,6 +5,7 @@ git config --list
 git init (Intialize empty git repo)
 git commit -m ""
 git branch (gives the branch name)
+git switch
 
 Steps:
 (1) git status
@@ -26,4 +27,26 @@ Working with Git Branches
 (4) git diff master..branch1
 (5) git branch -d branchname
 (6) git clone <URL>
+
+For conflicts:
+create branches from master branch,edit same file in all branches and try to merge from master branch
+
+Task 2:
+I) Revert back changes before file got staged
+git checkout filename
+
+II) Revert back changes after file got staged
+git restore --staged filename
+git diff
+git checkout filename
+
+
+III) Revert back changes after commit
+git diff
+git revert HEAD  to rollback changes to previous commit version (it created new commit id)
+git reset --hard commitid first letters using graph
+
+
+
+
 
