@@ -1,0 +1,34 @@
+sudo apt-get install docker.io ---> installing docker
+serivce docker status --> checks the status of docker in system
+sudo docker images  ---> list docker images present
+
+sudo docker pull image_name ---> downloads image into our system from docker hub
+sudo docker rmi image_id ---> deletes the image
+
+sudo docker create image_name ---> creates docker image
+sudo create --name container_name image_name ---> create a new container based on the Ubuntu image.
+sudo docker create -i -t --name container_name image_name command --->create an interactive and TTY-enabled container named "user1" based on the Ubuntu image, and it runs the "/bin/bash" command inside the container.
+
+sudo docker start container_name
+sudo docker stop container_name
+
+sudo docker attach container_name ---> The docker attach command is used to attach to a running container's process, specifically its standard input, output, and error streams
+
+sudo docker start -a -i container_name --> it will start and attach
+sudo docker stats ---> monitor running container
+sudo docker stats container_name
+sudo docker logs container_id ---> to get the log info of running container
+sudo docker logs -f container_name ---> monitor log info live
+
+
+
+sudo docker history image_name
+sudo docker info
+sudo docker search image_name 
+
+docker run -d -it --name user3 ubuntu /bin/bash ---> run container as a background process
+sudo docker ps -a ---> to list container id's and their status
+
+
+
+
