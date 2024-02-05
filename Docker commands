@@ -32,3 +32,11 @@ sudo docker ps -a ---> to list container id's and their status
 sudo docker commit container_id imagename ---> create image in the container
 
 
+Pushing into docker-hub:
+________________________
+sudo docker login
+sudo docker tag image_name {docker-hub-username}/{docker-hub-repo}:tag_name
+docker push {docker-hub-username}/{docker-hub:repo}:tag_name
+
+
+
