@@ -29,6 +29,6 @@ sudo docker search image_name
 docker run -d -it --name user3 ubuntu /bin/bash ---> run container as a background process
 sudo docker ps -a ---> to list container id's and their status
 
-
+sudo docker commit container_id imagename ---> create image in the container
 
 
